@@ -1,3 +1,0 @@
-language: c
-
-script: gcc unix_timestamp.c -o unix_timestamp
