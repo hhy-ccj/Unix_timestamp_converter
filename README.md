@@ -1,6 +1,9 @@
 # Epoch Unix Timestamp Converter 
 [![Build Status](https://travis-ci.org/hhy-ccj/Unix_timestamp_converter.svg?branch=master)](https://travis-ci.org/hhy-ccj/Unix_timestamp_converter)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/772958417@qq.com)
+
+------
+
 ## 概述
 - `32 Bit`限制
 
@@ -17,12 +20,12 @@
 - `C` 语言实现
 
 ## Start
-> 接口
+- 接口
 ```C
 struct UTC_TIME unix32_to_UTC(u32 unix_time);
 struct UTC_TIME unix32_to_UTC_beijing(u32 unix_time);
 ```
-> 测试代码
+- 测试代码
 ```C
 int main(int argc, char const *argv[])
 {
@@ -50,19 +53,19 @@ int main(int argc, char const *argv[])
     return 0;
 }
 ```
-> 编译
+- 编译
 ```bash
 gcc unix_timestamp.c -o unix_timestamp
 ```
-> `Linux terminal`下执行
+- `Linux terminal`下执行
 ```bash
 ./unix_timestamp
 ```
-> `Windows cmd` 或者 `powershell` 下执行
+- `Windows cmd` 或者 `powershell` 下执行
 ```bash
 unix_timestamp.exe
 ```
-> 输出结果
+- 输出结果
 ```C
 unix32_to_UTC: 1970/1/1 00:00:00, weekday 4
 unix32_to_UTC: 2106/2/7 06:28:15, weekday 0
