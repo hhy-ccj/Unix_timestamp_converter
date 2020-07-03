@@ -58,7 +58,7 @@ gcc unix_timestamp.c -o unix_timestamp
 ```bash
 ./unix_timestamp
 ```
-> `Windows cmd` 下执行
+> `Windows cmd` 或者 `powershell` 下执行
 ```bash
 unix_timestamp.exe
 ```
